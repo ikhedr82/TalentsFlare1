@@ -1,0 +1,200 @@
+:root {
+  --mainColor: #294093;
+  --mainMidColor: #25546d;
+  --mainDarkColor: #35799d;
+  --mainLiteColor: #06b1c5;
+  --mainLiteOpacity: rgba(11, 158, 188, 0.17);
+  --mainOrange: #f2af1b;
+  --mainOrangeOpacity: rgba(242, 175, 27, 0.19);
+  --white: #fff;
+  --whiteOpacity: rgba(255, 255, 255, 0.77);
+  --black: #000;
+  --gray: #545454;
+  --darkGray: #59595b;
+  --activeNavLinkColor: #555;
+  --navLinkColor: rgba(77, 77, 77, 0.7);
+  --mainTitleSize: 28px;
+  --mainTitleBold: 600;
+  --mainGrayDescColor: #929292;
+  --activeCardBg: linear-gradient(152deg, #fff -21.56%, #e3f0f3 52.31%);
+  --activeMainBg: linear-gradient(127deg, #284294 -10.79%, #00a3b6 112.16%);
+  --mainBorderLgRadius: 16px;
+  --mainBorderMdRadius: 8px;
+  --mainBorderSmRadius: 3px;
+}
+html {
+  scroll-behavior: smooth;
+  font-size: 15px;
+}
+body {
+  font-family: "Inter", sans-serif;
+}
+p {
+  margin: 0;
+}
+/* width */
+::-webkit-scrollbar {
+  width: 7px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px var(--mainLiteOpacity);
+  border-radius: 10px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: var(--mainColor);
+  border-radius: 10px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: var(--mainMidColor);
+}
+img {
+  max-width: 100%;
+  object-fit: scale-down;
+}
+.mainBg {
+  background-color: var(--mainColor);
+}
+.mainText {
+  color: var(--mainColor);
+}
+.mainOrangeText {
+  color: var(--mainOrange);
+}
+.mainOrangeBg {
+  background-color: var(--mainOrange);
+}
+.mainLiteColorText {
+  color: var(--mainLiteColor);
+}
+.mainLiteColorBg {
+  background-color: var(--mainLiteColor);
+}
+.mainMidColorText {
+  color: var(--mainMidColor);
+}
+.mainMidColorBg {
+  background-color: var(--mainMidColor);
+}
+.whiteText {
+  color: var(--white);
+}
+.whiteOpacityText {
+  color: var(--whiteOpacity);
+}
+.whiteBg {
+  background-color: var(--white);
+}
+.blackText {
+  color: var(--black);
+}
+.mainGrayText {
+  color: var(--gray);
+}
+.mainGrayBg {
+  background-color: var(--gray);
+}
+.mainDarkGrayText {
+  color: var(--darkGray);
+}
+.mainDarkGrayBg {
+  background-color: var(--darkGray);
+}
+.navText {
+  color: var(--navLinkColor) !important;
+}
+.navActiveText {
+  color: var(--activeNavLinkColor) !important;
+}
+.sectionTitleSize {
+  font-size: var(--mainTitleSize);
+  font-weight: var(--mainTitleBold);
+}
+.sectionGrayText {
+  color: var(--mainGrayDescColor);
+}
+
+.mainBorderLgRadius {
+  border-radius: var(--mainBorderLgRadius) !important;
+}
+.mainBorderMdRadius {
+  border-radius: var(--mainBorderMdRadius) !important;
+}
+.mainBorderSmRadius {
+  border-radius: var(--mainBorderSmRadius) !important;
+}
+.activeCardBg {
+  background: var(--activeCardBg);
+}
+/* .gap-5 {
+  gap: 5px;
+}
+.gap-10 {
+  gap: 10px;
+}
+.gap-15 {
+  gap: 15px;
+}
+.gap-16 {
+  gap: 16px;
+}
+.gap-20 {
+  gap: 20px;
+}
+.gap-25 {
+  gap: 25px;
+} */
+.center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.center-inline {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}
+.title-center {
+  margin: auto;
+  max-width: 700px;
+  text-align: center;
+}
+.main-line-height {
+  line-height: 1.2;
+}
+.main-large-line-height {
+  line-height: 1.5;
+}
+input[name="phoneNumber"]::-webkit-outer-spin-button,
+input[name="phoneNumber"]::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+input[name="phoneNumber"] {
+  -moz-appearance: textfield;
+}
+.page-max-w-1000 {
+  max-width: 1000px;
+  margin: 0px auto;
+}
+
+.page-max-w-900 {
+  max-width: 900px;
+  margin: 0px auto;
+}
+
+.page-max-w-800 {
+  max-width: 800px;
+  margin: 0px auto;
+}
+
+.page-max-w-700 {
+  max-width: 700px;
+  margin: 0px auto;
+}

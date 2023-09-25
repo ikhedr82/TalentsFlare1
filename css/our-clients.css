@@ -1,0 +1,31 @@
+/* Start Our Clients */
+.our-clients-section {
+  background-color: #fff;
+  z-index: 12;
+  padding: 100px 0px;
+}
+.our-clients-container {
+}
+.our-clients-container .client-card {
+  width: calc(100% / 7 - 32px);
+}
+
+@media (max-width: 991.98px) {
+  .our-clients-container .client-card {
+    width: calc(100% / 5 - 32px);
+  }
+}
+
+@media (max-width: 767.98px) {
+  .our-clients-container .client-card {
+    width: calc(100% / 3 - 32px);
+  }
+}
+
+@media (max-width: 575.98px) {
+  .our-clients-container .client-card {
+    width: calc(100% / 2 - 32px);
+  }
+}
+
+/* End Our Clients */
